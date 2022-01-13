@@ -3,6 +3,10 @@
     padding: 0;
     list-style: none;
 }
+body, html{
+    background: #E5E5E5;
+
+}
 
 .nav-bar{
     background-color: #562EFF;
@@ -57,4 +61,51 @@
 
 .menu-bar ul li a:hover{
     text-decoration: underline;
+}
+
+.box-section{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 50px;
+    max-width: 870px;
+    margin: 30px auto;
+    
+}
+
+.top-players-title, .top-blogs-title{
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 45px;
+    margin-left: 40px;
+    
+}
+.top-players, .top-blogs{
+    display: grid;
+    grid-gap: 30px;
+}
+
+.top-players{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player, .blog{
+    display: flex;
+    align-items: center;
+
+}
+.player img{
+    width: 56px;
+    height: auto;
+    margin-right: 16px;
+   
+}
+.top-blogs{
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-img img{
+    width: 177px;
+    height: auto;
+    margin-right: 20px;
 }
