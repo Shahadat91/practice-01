@@ -1,8 +1,56 @@
-.nav-left .nav-icon{
-    color: rgb(219, 11, 11);
-    background: #000;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar{
+    background-color: #562EFF;
+    width: 1440px;
+    height: 94px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+     
+}
+
+.nav-icon img{
+    display: block;
+    max-width: 40px;
+    height: auto;
+    margin: 0;
 }
 
 .nav-title h1{
-    color: blue;
+    color: rgb(234, 234, 241);
+    padding-left: 15px;
+}
+
+.profile-img img{
+    width: 100%;
+}
+
+
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar ul{
+    display: flex;
+    align-items: center;
+}
+.menu-bar ul li{
+    padding: 10px;
 }
