@@ -52,5 +52,9 @@
     align-items: center;
 }
 .menu-bar ul li{
-    padding: 10px;
+    padding-right: 36px;
+}
+
+.menu-bar ul li a:hover{
+    text-decoration: underline;
 }
